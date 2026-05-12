@@ -22,10 +22,10 @@ const MEMORIES = [
     accent: "#f9a8d4",
   },
   {
-    src: "/sakura3.png",
+    src: "/sakura2.png",
     label: "Sakura Season 🌸",
     caption: "Lần đầu mang em đi date online ha (˶ᵔ ᵕ ᵔ˶)",
-    rotate: "1.1deg",
+    rotate: "1.2deg",
     accent: "#f9a8d4",
   },
   {
@@ -57,7 +57,7 @@ const MEMORIES = [
     accent: "#fcd34d",
   },
   {
-    src: "/ubereat.png",
+    src: "/ubereat5.png",
     label: "Yêu Anh ❤️",
     caption: "Lo cho anh cả đêm, sáng anh hangover thì có đồ ăn sáng sẵn luôn 🫶🥹(╥ ω ╥)",
     rotate: "1.8deg",
@@ -462,10 +462,10 @@ export default function BirthdayGiftWebsite() {
                   WebkitBackfaceVisibility: "hidden",
                 }}
               >
-                <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 18 }}>
+                <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 15 }}>
                   Gửi bé Ted<br/>Nguyễn Hoài Văn sinh ngày 18/05/1999<br/>🫵🏻ـــــــــــــــﮩ٨ـ❤️️
                 </h2>
-                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 12 }}>
+                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 10 }}>
                   Chúc mừng sinh nhật em!<br />
                   I'm so grateful you exist in this world ꫂ❁<br />
                   Today marks 127 days since the first time we met!!<br />
@@ -511,7 +511,7 @@ export default function BirthdayGiftWebsite() {
             onClick={handleSurpriseClick}
             style={{
               padding: "18px 52px",
-              fontSize: 16,
+              fontSize: 13,
               background: heartBurst ? "linear-gradient(135deg, #f472b6, #a855f7)" : "linear-gradient(135deg, #ec4899, #8b5cf6)",
               boxShadow: heartBurst ? "0 0 60px rgba(244,114,182,0.7)" : "0 8px 40px rgba(236,72,153,0.35)",
               transition: "all 0.3s ease",
