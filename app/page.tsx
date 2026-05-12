@@ -43,14 +43,14 @@ const MEMORIES = [
     accent: "#a5b4fc",
   },
   {
-    src: "/facetime1.png",
+    src: "/facetime.png",
     label: "Late Night FaceTime 🌙",
     caption: "Mấy tối hành nhau đến 3,4g sáng (,,>﹏<,,)👉👈",
     rotate: "1.5deg",
     accent: "#a5b4fc",
   },
   {
-    src: "/ubereat1.png",
+    src: "/ubereat11.png",
     label: "Yêu Anh ❤️",
     caption: "Cơ mà luôn có bằng chằng em yêu anh đó nhé ⸜(｡˃ ᵕ ˂ )⸝♡",
     rotate: "-1deg",
@@ -64,7 +64,7 @@ const MEMORIES = [
     accent: "#fcd34d",
   },
   {
-    src: "/ubereat3.png",
+    src: "/ubereat33.png",
     label: "Yêu Anh ❤️",
     caption: "Thêm bằng chứng yêu anh hehe (つ｡˃ ᵕ ˂)つ ⸝♡",
     rotate: "-1.0deg",
@@ -462,10 +462,10 @@ export default function BirthdayGiftWebsite() {
                   WebkitBackfaceVisibility: "hidden",
                 }}
               >
-                <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 21 }}>
+                <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 19 }}>
                   Gửi bé Ted<br/>Nguyễn Hoài Văn sinh ngày 18/05/1999<br/>🫵🏻ـــــــــــــــﮩ٨ـ❤️️
                 </h2>
-                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 12 }}>
+                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 13 }}>
                   Chúc mừng sinh nhật em!<br />
                   I'm so grateful you exist in this world ꫂ❁<br />
                   Today marks 127 days since the first time we met!!<br />
