@@ -43,14 +43,14 @@ const MEMORIES = [
     accent: "#a5b4fc",
   },
   {
-    src: "/facetime4.png",
+    src: "/facetime4.jpg",
     label: "Late Night FaceTime 🌙",
     caption: "Mấy tối hành nhau đến 3,4g sáng (,,>﹏<,,)👉👈",
     rotate: "1.5deg",
     accent: "#a5b4fc",
   },
   {
-    src: "/ubereatevidence.png",
+    src: "/ubereatevidence.jpg",
     label: "Yêu Anh ❤️",
     caption: "Cơ mà luôn có bằng chằng em yêu anh đó nhé ⸜(｡˃ ᵕ ˂ )⸝♡",
     rotate: "-1deg",
@@ -64,7 +64,7 @@ const MEMORIES = [
     accent: "#fcd34d",
   },
   {
-    src: "/ubereathoney.png",
+    src: "/ubereathoney.jpg",
     label: "Yêu Anh ❤️",
     caption: "Thêm bằng chứng yêu anh hehe (つ｡˃ ᵕ ˂)つ ⸝♡",
     rotate: "-1deg",
@@ -465,7 +465,7 @@ export default function BirthdayGiftWebsite() {
                 <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 22 }}>
                   Gửi bé Ted<br/>Nguyễn Hoài Văn<br/>18/05/1999<br/>🫵🏻ـــــــــــــــﮩ٨ـ❤️️
                 </h2>
-                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 16, lineHeight: 1.3 }}>
+                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 17, lineHeight: 1.3 }}>
                   Chúc mừng sinh nhật em!<br /><br />
                   I'm so grateful you exist<br />in this world ꫂ❁<br />
                   Today marks 127 days<br />since the first time we met!!<br />
