@@ -418,7 +418,7 @@ export default function BirthdayGiftWebsite() {
             className="card-wrap float-in transition-all duration-700 ease-in-out"
             style={{
               animationDelay: "1.1s",
-              height: cardFlipped ? 568 : 168,
+              height: cardFlipped ? 586 : 168,
             }}
             onClick={() => setCardFlipped(!cardFlipped)}
           >
@@ -456,7 +456,7 @@ export default function BirthdayGiftWebsite() {
                 style={{
                   background: "linear-gradient(135deg, rgba(255,130,180,0.15), rgba(140,90,255,0.15))",
                   border: "1px solid rgba(255,180,210,0.2)",
-                  minHeight: 568,
+                  minHeight: 586,
                   transform: "rotateY(180deg)",
                   backfaceVisibility: "hidden",
                   WebkitBackfaceVisibility: "hidden",
