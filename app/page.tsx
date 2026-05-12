@@ -57,7 +57,7 @@ const MEMORIES = [
     accent: "#fcd34d",
   },
   {
-    src: "/ubereat5.png",
+    src: "/ubereat.png",
     label: "Yêu Anh ❤️",
     caption: "Lo cho anh cả đêm, sáng anh hangover thì có đồ ăn sáng sẵn luôn 🫶🥹(╥ ω ╥)",
     rotate: "1.8deg",
@@ -462,10 +462,10 @@ export default function BirthdayGiftWebsite() {
                   WebkitBackfaceVisibility: "hidden",
                 }}
               >
-                <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 15 }}>
+                <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 17 }}>
                   Gửi bé Ted<br/>Nguyễn Hoài Văn sinh ngày 18/05/1999<br/>🫵🏻ـــــــــــــــﮩ٨ـ❤️️
                 </h2>
-                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 10 }}>
+                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 12 }}>
                   Chúc mừng sinh nhật em!<br />
                   I'm so grateful you exist in this world ꫂ❁<br />
                   Today marks 127 days since the first time we met!!<br />
