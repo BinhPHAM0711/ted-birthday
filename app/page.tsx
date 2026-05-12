@@ -43,31 +43,10 @@ const MEMORIES = [
     accent: "#a5b4fc",
   },
   {
-    src: "/facetime.png",
-    label: "Late Night FaceTime 🌙",
-    caption: "Mấy tối hành nhau đến 3,4g sáng (,,>﹏<,,)👉👈",
-    rotate: "1.5deg",
-    accent: "#a5b4fc",
-  },
-  {
-    src: "/ubereat11.png",
-    label: "Yêu Anh ❤️",
-    caption: "Cơ mà luôn có bằng chằng em yêu anh đó nhé ⸜(｡˃ ᵕ ˂ )⸝♡",
-    rotate: "-1deg",
-    accent: "#fcd34d",
-  },
-  {
     src: "/ubereat.png",
     label: "Yêu Anh ❤️",
     caption: "Lo cho anh cả đêm, sáng anh hangover thì có đồ ăn sáng sẵn luôn 🫶🥹(╥ ω ╥)",
     rotate: "1.8deg",
-    accent: "#fcd34d",
-  },
-  {
-    src: "/ubereat33.png",
-    label: "Yêu Anh ❤️",
-    caption: "Thêm bằng chứng yêu anh hehe (つ｡˃ ᵕ ˂)つ ⸝♡",
-    rotate: "-1.0deg",
     accent: "#fcd34d",
   },
   {
@@ -418,7 +397,7 @@ export default function BirthdayGiftWebsite() {
             className="card-wrap float-in transition-all duration-700 ease-in-out"
             style={{
               animationDelay: "1.1s",
-              height: cardFlipped ? 500 : 168,
+              height: cardFlipped ? 568 : 168,
             }}
             onClick={() => setCardFlipped(!cardFlipped)}
           >
@@ -456,23 +435,22 @@ export default function BirthdayGiftWebsite() {
                 style={{
                   background: "linear-gradient(135deg, rgba(255,130,180,0.15), rgba(140,90,255,0.15))",
                   border: "1px solid rgba(255,180,210,0.2)",
-                  minHeight: 500,
+                  minHeight: 568,
                   transform: "rotateY(180deg)",
                   backfaceVisibility: "hidden",
                   WebkitBackfaceVisibility: "hidden",
                 }}
               >
-                <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 19 }}>
-                  Gửi bé Ted<br/>Nguyễn Hoài Văn sinh ngày 18/05/1999<br/>🫵🏻ـــــــــــــــﮩ٨ـ❤️️
+                <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 22 }}>
+                  Gửi bé Ted<br/>Nguyễn Hoài Văn<br/>18/05/1999<br/>🫵🏻ـــــــــــــــﮩ٨ـ❤️️
                 </h2>
-                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 13 }}>
-                  Chúc mừng sinh nhật em!<br />
-                  I'm so grateful you exist in this world ꫂ❁<br />
-                  Today marks 127 days since the first time we met!!<br />
-                  Thanks for choosing me, your vacation fling (≖⩊≖)<br />
-                  You make me happy, jealous, tear up & loved -`♡´-<br /><br />  
-                  Anh chưa bao giờ cảm thấy yêu và được yêu<br />
-                  như 4 tháng vừa qua với em! (⸝⸝๑﹏๑⸝⸝)<br />
+                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 16, lineHeight: 1.3 }}>
+                  Chúc mừng sinh nhật em!<br /><br />
+                  I'm so grateful you exist<br />in this world ꫂ❁<br />
+                  Today marks 127 days<br />since the first time we met!!<br />
+                  Thanks for choosing me<br />as your vacation fling (≖⩊≖)<br />
+                  You make me happy, jealous,<br />tear up & loved -`♡´-<br /><br />  
+                  Anh chưa bao giờ cảm thấy<br />yêu và được yêu như 4 tháng<br />vừa qua với em! (⸝⸝๑﹏๑⸝⸝)<br />
                   Vậy nên hôm nay chốt luôn nhé ↓↓↓↓<br /><br />
                   <span className="font-display text-pink-300" style={{ fontSize: 24 }}>
                     Làm người yêu anh nhé ♡
