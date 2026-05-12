@@ -22,7 +22,7 @@ const MEMORIES = [
     accent: "#f9a8d4",
   },
   {
-    src: "/sakura2.PNG",
+    src: "/sakura3.png",
     label: "Sakura Season 🌸",
     caption: "Lần đầu mang em đi date online ha (˶ᵔ ᵕ ᵔ˶)",
     rotate: "1.1deg",
@@ -43,28 +43,28 @@ const MEMORIES = [
     accent: "#a5b4fc",
   },
   {
-    src: "/facetime1.PNG",
+    src: "/facetime1.png",
     label: "Late Night FaceTime 🌙",
     caption: "Mấy tối hành nhau đến 3,4g sáng (,,>﹏<,,)👉👈",
     rotate: "1.5deg",
     accent: "#a5b4fc",
   },
   {
-    src: "/ubereat1.PNG",
+    src: "/ubereat1.png",
     label: "Yêu Anh ❤️",
     caption: "Cơ mà luôn có bằng chằng em yêu anh đó nhé ⸜(｡˃ ᵕ ˂ )⸝♡",
     rotate: "-1deg",
     accent: "#fcd34d",
   },
   {
-    src: "/ubereat2.PNG",
+    src: "/ubereat.png",
     label: "Yêu Anh ❤️",
     caption: "Lo cho anh cả đêm, sáng anh hangover thì có đồ ăn sáng sẵn luôn 🫶🥹(╥ ω ╥)",
     rotate: "1.8deg",
     accent: "#fcd34d",
   },
   {
-    src: "/ubereat3.PNG",
+    src: "/ubereat3.png",
     label: "Yêu Anh ❤️",
     caption: "Thêm bằng chứng yêu anh hehe (つ｡˃ ᵕ ˂)つ ⸝♡",
     rotate: "-1.0deg",
@@ -462,10 +462,10 @@ export default function BirthdayGiftWebsite() {
                   WebkitBackfaceVisibility: "hidden",
                 }}
               >
-                <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 22 }}>
+                <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 18 }}>
                   Gửi bé Ted<br/>Nguyễn Hoài Văn sinh ngày 18/05/1999<br/>🫵🏻ـــــــــــــــﮩ٨ـ❤️️
                 </h2>
-                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 14 }}>
+                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 12 }}>
                   Chúc mừng sinh nhật em!<br />
                   I'm so grateful you exist in this world ꫂ❁<br />
                   Today marks 127 days since the first time we met!!<br />
@@ -525,7 +525,7 @@ export default function BirthdayGiftWebsite() {
               ? "🎁 Tap for a Surprise"
               : tapCount < 4
               ? `💗 Anh yêu em${" nhiều".repeat(tapCount)}`
-              : "💖 Aww Yêu em nhiều NHẤT luôn 🧸ྀི"}
+              : "💖 Aw Yêu em nhiều NHẤT luôn 🧸ྀི"}
           </button>
           <p className="text-white/22 text-xs mt-3 font-body">
             {tapCount > 0 ? `Xem em tap được bn lần ( •̯́ ₃ •̯̀) : ${tapCount} ${tapCount !== 1 ? "lần" : ""} ♡` : "Tap đi nào, đừng ngại! 🤭"}
