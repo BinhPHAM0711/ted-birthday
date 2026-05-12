@@ -465,7 +465,7 @@ export default function BirthdayGiftWebsite() {
                 <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 21 }}>
                   Gửi bé Ted<br/>Nguyễn Hoài Văn sinh ngày 18/05/1999<br/>🫵🏻ـــــــــــــــﮩ٨ـ❤️️
                 </h2>
-                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 14 }}>
+                <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 12 }}>
                   Chúc mừng sinh nhật em!<br />
                   I'm so grateful you exist in this world ꫂ❁<br />
                   Today marks 127 days since the first time we met!!<br />
