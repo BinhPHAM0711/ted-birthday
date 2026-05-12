@@ -418,7 +418,7 @@ export default function BirthdayGiftWebsite() {
             className="card-wrap float-in transition-all duration-700 ease-in-out"
             style={{
               animationDelay: "1.1s",
-              height: cardFlipped ? 586 : 168,
+              height: cardFlipped ? 604 : 168,
             }}
             onClick={() => setCardFlipped(!cardFlipped)}
           >
@@ -444,7 +444,7 @@ export default function BirthdayGiftWebsite() {
                 }}
               >
                 <div style={{ fontSize: 36, marginBottom: 8 }}>💌</div>
-                <p className="font-display italic text-pink-200" style={{ fontSize: 20 }}>
+                <p className="font-display italic text-pink-200" style={{ fontSize: 27 }}>
                   Tap to open a letter
                 </p>
                 <p className="text-white/35 text-xs mt-2 font-body">just for you ♡</p>
@@ -456,7 +456,7 @@ export default function BirthdayGiftWebsite() {
                 style={{
                   background: "linear-gradient(135deg, rgba(255,130,180,0.15), rgba(140,90,255,0.15))",
                   border: "1px solid rgba(255,180,210,0.2)",
-                  minHeight: 586,
+                  minHeight: 604,
                   transform: "rotateY(180deg)",
                   backfaceVisibility: "hidden",
                   WebkitBackfaceVisibility: "hidden",
@@ -510,7 +510,7 @@ export default function BirthdayGiftWebsite() {
             onClick={handleSurpriseClick}
             style={{
               padding: "18px 52px",
-              fontSize: 13,
+              fontSize: 15,
               background: heartBurst ? "linear-gradient(135deg, #f472b6, #a855f7)" : "linear-gradient(135deg, #ec4899, #8b5cf6)",
               boxShadow: heartBurst ? "0 0 60px rgba(244,114,182,0.7)" : "0 8px 40px rgba(236,72,153,0.35)",
               transition: "all 0.3s ease",
