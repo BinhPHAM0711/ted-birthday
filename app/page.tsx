@@ -43,10 +43,31 @@ const MEMORIES = [
     accent: "#a5b4fc",
   },
   {
+    src: "/facetime4.png",
+    label: "Late Night FaceTime 🌙",
+    caption: "Mấy tối hành nhau đến 3,4g sáng (,,>﹏<,,)👉👈",
+    rotate: "1.5deg",
+    accent: "#a5b4fc",
+  },
+  {
+    src: "/ubereatevidence.png",
+    label: "Yêu Anh ❤️",
+    caption: "Cơ mà luôn có bằng chằng em yêu anh đó nhé ⸜(｡˃ ᵕ ˂ )⸝♡",
+    rotate: "-1deg",
+    accent: "#fcd34d",
+  },
+  {
     src: "/ubereat.png",
     label: "Yêu Anh ❤️",
     caption: "Lo cho anh cả đêm, sáng anh hangover thì có đồ ăn sáng sẵn luôn 🫶🥹(╥ ω ╥)",
     rotate: "1.8deg",
+    accent: "#fcd34d",
+  },
+  {
+    src: "/ubereathoney.png",
+    label: "Yêu Anh ❤️",
+    caption: "Thêm bằng chứng yêu anh hehe (つ｡˃ ᵕ ˂)つ ⸝♡",
+    rotate: "-1deg",
     accent: "#fcd34d",
   },
   {
@@ -450,8 +471,8 @@ export default function BirthdayGiftWebsite() {
                   Today marks 127 days<br />since the first time we met!!<br />
                   Thanks for choosing me<br />as your vacation fling (≖⩊≖)<br />
                   You make me happy, jealous,<br />tear up & loved -`♡´-<br /><br />  
-                  Anh chưa bao giờ cảm thấy<br />yêu và được yêu như 4 tháng<br />vừa qua với em! (⸝⸝๑﹏๑⸝⸝)<br />
-                  Vậy nên hôm nay chốt luôn nhé ↓↓↓↓<br /><br />
+                  Anh chưa bao giờ cảm thấy<br />yêu và được yêu như 4 tháng<br />vừa qua với em! (⸝⸝๑﹏๑⸝⸝)<br /><br />
+                  Vậy nên ,; (ง 🔥 ﾛ 🔥 )ง ;,<br />hôm nay chốt luôn nhé ↓↓↓↓<br /><br />
                   <span className="font-display text-pink-300" style={{ fontSize: 24 }}>
                     Làm người yêu anh nhé ♡
                   </span>
