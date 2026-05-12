@@ -462,7 +462,7 @@ export default function BirthdayGiftWebsite() {
                   WebkitBackfaceVisibility: "hidden",
                 }}
               >
-                <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 19 }}>
+                <h2 className="font-display text-pink-200 mb-4 text-center" style={{ fontSize: 21 }}>
                   Gửi bé Ted<br/>Nguyễn Hoài Văn sinh ngày 18/05/1999<br/>🫵🏻ـــــــــــــــﮩ٨ـ❤️️
                 </h2>
                 <p className="font-body text-white/78 leading-8 text-center" style={{ fontSize: 14 }}>
